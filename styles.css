@@ -14,9 +14,34 @@
     padding: 0;
     box-sizing: border-box;
     pointer-events: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
 }
 
 body{
     min-height: 100vh;
-    background-color: hsl(201, 11%, 66%);
+}
+
+main{
+    margin: 0 5rem;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1{
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+img{
+    max-width: 100%;
 }
