@@ -8,40 +8,39 @@
 - Dark Grayish Blue: hsl(210, 10%, 33%)
 - Grayish Blue: hsl(201, 11%, 66%) */
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    pointer-events: none;
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  pointer-events: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
 }
 
-body{
-    min-height: 100vh;
+body {
+  min-height: 100vh;
 }
 
-main{
-    margin: 0 5rem;
-    text-align: center;
+main {
+  margin: 0 1rem;
+  text-align: center;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
+.header {
+  background-image: url("/images/bg-header-mobile.png");
+}
+.header img{
+  width: 100%;
+  max-width: 100%;
 }
 
-
-
-h1{
-    color: hsl(210, 10%, 33%);
+h1 {
+  color: hsl(210, 10%, 33%);
 }
 
-p{
-    color: hsl(201, 11%, 66%);
+p {
+  color: hsl(201, 11%, 66%);
 }
 
-img{
-    max-width: 100%;
-}
+img {
+  max-width: 100%;
